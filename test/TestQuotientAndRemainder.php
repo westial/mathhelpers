@@ -7,7 +7,7 @@ use MathHelpers\QuotientAndRemainder;
 
 class TestQuotientAndRemainder extends \PHPUnit_Framework_TestCase
 {
-    private $quotientAndRemainderSamples = [
+    private $samples = [
         [6, 3, 2, 0],
         [7, 3, 2, 1],
         [8, 3, 2, 2],
@@ -18,7 +18,7 @@ class TestQuotientAndRemainder extends \PHPUnit_Framework_TestCase
 
     public function testQuotientAndRemainder()
     {
-        foreach ($this->quotientAndRemainderSamples as $sample)
+        foreach ($this->samples as $sample)
         {
             list($divisor, $dividend, $quotient, $remainder) = $sample;
             $calculator = new QuotientAndRemainder($divisor, $dividend);
