@@ -1,0 +1,21 @@
+{
+    "name": "mathhelpers",
+    "description": "Math services",
+    "authors": [
+        {
+            "name": "Jaume Mila",
+            "email": "jaume@westial.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MathHelpers\\":
+            [
+                "src/"
+            ]
+        }
+    }
+}
