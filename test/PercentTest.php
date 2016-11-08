@@ -5,7 +5,7 @@ namespace Tests\MathHelpers;
 
 use MathHelpers\Percent;
 
-class TestPercent extends \PHPUnit_Framework_TestCase
+class PercentTest extends \PHPUnit_Framework_TestCase
 {
     private $samples = [
         [100, 5, 5],

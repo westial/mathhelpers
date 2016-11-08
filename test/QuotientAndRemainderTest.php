@@ -5,7 +5,7 @@ namespace Tests\MathHelpers;
 
 use MathHelpers\QuotientAndRemainder;
 
-class TestQuotientAndRemainder extends \PHPUnit_Framework_TestCase
+class QuotientAndRemainderTest extends \PHPUnit_Framework_TestCase
 {
     private $samples = [
         [6, 3, 2, 0],
